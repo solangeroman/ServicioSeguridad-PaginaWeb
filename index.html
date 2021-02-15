@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>servicio de seguridad</title>
+
+    <meta name="distribution" content="global">
+    <meta name="robots" content="index, follow">
+    <meta name="geo.country" content="ES-M">
+
+    <meta property="og:url" content="link">
+    <meta property="og:url" content="article">
+    <meta property="og:url" content="link">
+    <meta property="og:url" content="link">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Web/_css/estilo-bootstrap.css">
+    <link rel="stylesheet" href="Web/_css/estilo-fran.css">
+    <style>
+        .slider {
+            background: url("Web/_recursos/images/panteon.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="contenido-esquinas fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="Web/_recursos/images/logo.png" height="50" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="nosotros.html">Nosotros <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="servicios.html">Servicios</a>
+                    <a class="nav-item nav-link" href="contacto.html">Contacto</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mr-4" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Conocenos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="noticias.html">Noticias</a>
+                            <a class="dropdown-item" href="preguntasFrecuentes.html">Preguntas frecuentes</a>
+                        </div>
+                    </li>
+                    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+                    <div id="id01" class="modal">
+
+                        <form class="modal-content animate" action="Web/_php/login.php" method="post">
+                            <div class="imgcontainer">
+                                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                <img src="Web/_recursos/images/avatar.png" alt="Avatar" class="avatar">
+                            </div>
+
+                            <div class="container">
+                                <label for="Email"><b>Email</b></label>
+                                <input type="text" placeholder="Introduzca su email" name="email" required>
+
+                                <label for="psw"><b>Contraseña</b></label>
+                                <input type="password" placeholder="Introduzca su contraseña" name="password" required>
+
+                                <button type="submit">Login</button>
+                            </div>
+
+                            <div class="container" style="background-color:#f1f1f1">
+                                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+                                <span class="psw"><a href="registro.html">Registrate</a></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid slider text-white d-flex flex-column justify-content-center align-items-center">
+        <div class="text-center">
+            <h1 class="display-4">
+                <span style="color:#000000"><b>Vigilando</b></span>
+                <span style="color:#ffffff">desde siempre</span></h1>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container marketing">
+
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="Web/_recursos/images/proteger.png" alt="Generic placeholder image" width="140" height="140">
+                <h2>Protegemos</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+                </p>
+                <p><a class="btn btn-secondary" href="servicios.html" role="button">Ver Servicios &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="Web/_recursos/images/actuar.png" alt="Generic placeholder image" width="140" height="140">
+                <h2>Actuamos</h2>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+                </p>
+                <p><a class="btn btn-secondary" href="servicios.html" role="button">Ver Servicios &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="Web/_recursos/images/personalizacion.png" alt="Generic placeholder image" width="140" height="140">
+                <h2>Personalizamos</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                    risus.
+                </p>
+                <p><a class="btn btn-secondary" href="servicios.html" role="button">Ver Servicios &raquo;</a></p>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Descubre la alarma con protección 360º para hogar y negocio. <span class="text-muted">Te sorprendera!</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" src="Web/_recursos/images/360.png" alt="Generic placeholder image">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Descubre los beneficios de tener alarma con nosotros <span class="text-muted">ante una ocupación.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+                </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="featurette-image img-fluid mx-auto" src="Web/_recursos/images/justicia.png" alt="Generic placeholder image">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Ahora, te protegemos también fuera de casa <span class="text-muted"> y podras
+            revisarlo hasta en tu movil.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" src="Web/_recursos/images/consusltar.png" alt="Generic placeholder image">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+    </div>
+
+    <footer>
+        <div class="container p-3">
+            <div class="row text-white">
+                <div class="col ml-auto">
+                    <p>CONTACTAR:</p>
+                    <p>(0034)123456
+                        <br> (0034)99123456
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js" crossorigin="anonymous"></script>
+    <script src="Web/_js/validar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

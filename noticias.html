@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>noticias</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Web/_css/estilo-bootstrap.css">
+    <link rel="stylesheet" href="Web/_css/estilo-fran.css">
+    <link rel="stylesheet" href="Web/_css/estilo-sol.css">
+
+    <style>
+        .slider {
+            background: url("web/_recursos/images/securityguard.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+        }
+    </style>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML;
+        }
+    </script>
+</head>
+
+<body>
+
+
+    <div class="contenido-esquinas fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <img src="Web/_recursos/images/logo.png" height="50" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="nosotros.html">Nosotros <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="servicios.html">Servicios</a>
+                    <a class="nav-item nav-link" href="contacto.html">Contacto</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mr-4" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <u>Conocenos</u>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="noticias.html"><u>Noticias</u></a>
+                            <a class="dropdown-item" href="preguntasFrecuentes.html">Preguntas frecuentes</a>
+                        </div>
+                    </li>
+                    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+                    <div id="id01" class="modal">
+
+                        <form class="modal-content animate" action="Web/_php/login.php" method="post">
+                            <div class="imgcontainer">
+                                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                <img src="Web/_recursos/images/avatar.png" alt="Avatar" class="avatar">
+                            </div>
+
+                            <div class="container">
+                                <label for="email"><b>Email</b></label>
+                                <input type="text" placeholder="Introduzca su email" name="email" required>
+
+                                <label for="psw"><b>Contraseña</b></label>
+                                <input type="password" placeholder="Introduzca su contraseña" name="password" required>
+
+                                <button type="submit">Login</button>
+                            </div>
+
+                            <div class="container" style="background-color:#f1f1f1">
+                                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+                                <span class="psw"><a href="registro.html">Registrate</a></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid slider text-white d-flex flex-column justify-content-center align-items-center">
+        <div class="text-center">
+            <h1 class="display-4">Consejos de seguridad</h1>
+        </div>
+    </div>
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col-12 mb-5">
+                <div class="row mb-5">
+                    <div class="col-3">
+                        <img class="img-fluid" src="web/_recursos/images/noticia1.jpg" alt="">
+                        <p class="lead text-muted text-center">02 Mayo 2016</p>
+                    </div>
+                    <div class="col-9">
+                        <a href="https://criminologiacr.com/2016/05/02/consejos-invirtiendo-en-seguridad/">
+                            <h3>Consejos invirtiendo en seguridad.</h3>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ipsum, similique debitis saepe soluta, vero provident ab atque fuga molestias magni repellat labore adipisci! Sapiente deleniti numquam minus adipisci reiciendis
+                            at, assumenda odit itaque tempore voluptas, repellat sequi ab quibusdam.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi rem quasi reiciendis, ut eligendi, facilis deleniti temporibus vero ipsum accusamus.</p>
+                        <a href="#" class="btn btn-outline-warning btn-sm">Leer más...</a>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-3">
+                        <img class="img-fluid" src="web/_recursos/images/noticia2.jpg" alt="">
+                        <p class="lead text-muted text-center">04 Abril 2017</p>
+                    </div>
+                    <div class="col-9">
+                        <a href="https://puntobiz.com.ar/noticias/val/110748/val_s/112/cuanto-cuesta-contratar-seguridad-privada-para-tu-barrio-o-empresa.html">
+                            <h3>Cuanto cuesta contratar seguridad privada para tu barrio o casa.</h3>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ipsum, similique debitis saepe soluta, vero provident ab atque fuga molestias magni repellat labore adipisci! Sapiente deleniti numquam minus adipisci reiciendis
+                            at, assumenda odit itaque tempore voluptas, repellat sequi ab quibusdam.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi rem quasi reiciendis, ut eligendi, facilis deleniti temporibus vero ipsum accusamus.</p>
+                        <a href="#" class="btn btn-outline-warning btn-sm">Leer más...</a>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-3">
+                        <img class="img-fluid" src="web/_recursos/images/noticia3.png" alt="">
+                        <p class="lead text-muted text-center">04 Marzo 2016</p>
+                    </div>
+                    <div class="col-9">
+                        <a href="https://www.xtremsecure.com.mx/empresas-de-seguridad-privada-autorizadas-por-la-ssp-cdmx/">
+                            <h3>Empresas de seguridad autorizadas por la ssp cdmx.</h3>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ipsum, similique debitis saepe soluta, vero provident ab atque fuga molestias magni repellat labore adipisci! Sapiente deleniti numquam minus adipisci reiciendis
+                            at, assumenda odit itaque tempore voluptas, repellat sequi ab quibusdam.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi rem quasi reiciendis, ut eligendi, facilis deleniti temporibus vero ipsum accusamus.</p>
+                        <a href="#" class="btn btn-outline-warning btn-sm">Leer más...</a>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                        <div class="btn-group mr-2" role="group" aria-label="First group">
+                            <button type="button" class="btn btn-secondary active"><a href="noticias.html" style="color: #ffffff"><u>1</u></a></button>
+                            <button type="button" class="btn btn-secondary"><a href="noticias2.html" style="color: #ffffff">2</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container p-3">
+            <div class="row text-white">
+                <div class="col ml-auto">
+                    <p>CONTACTAR:</p>
+                    <p>(0034)123456
+                        <br> (0034)99123456
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js" crossorigin="anonymous"></script>
+    <script src="Web/_js/validar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+.navbar {
+    box-shadow: 2px 2px 5px rgb(245, 208, 141);
+    opacity: 0.9;
+}
+
+.navbar .nav-item .nav-link {
+    color: #fff;
+}
+
+.form-control,
+.btn {
+    border-radius: 0;
+}
+
+.team,
+footer {
+    background: rgb(66, 65, 65);
+}

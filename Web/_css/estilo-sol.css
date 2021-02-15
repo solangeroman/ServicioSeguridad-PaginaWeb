@@ -1,0 +1,133 @@
+form,
+p {
+    margin: 20px;
+}
+
+p.note {
+    font-size: 1rem;
+    color: red;
+}
+
+input,
+textarea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 4px;
+    font-family: 'Lato';
+    width: 300px;
+    margin-top: 10px;
+}
+
+label {
+    width: 300px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+label span {
+    font-size: 1rem;
+}
+
+label.error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
+
+input.error,
+textarea.error {
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
+
+
+/* [type="submit"],
+[type="reset"], */
+
+
+/* button,
+html [type="button"] {
+    margin-left: 0;
+    border-radius: 0;
+    background: black;
+    color: white;
+    border: none;
+    font-weight: 300;
+    padding: 10px 0;
+    line-height: 1;
+} */
+
+.contacto {
+    display: flex;
+    padding: 1%;
+    margin: 1%;
+}
+
+.cuerpo {
+    display: flex;
+    margin: 1%;
+    padding: 1%;
+    background-color: #bdb658;
+}
+
+.informacion {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    margin: 1%;
+    background-color: #e4e4e4;
+    font-family: "Sansita Swashed";
+}
+
+.informacion:hover {
+    opacity: 0.91;
+}
+
+h1 {
+    font-family: "Sansita Swashed";
+    /*background-color: #bc987e;*/
+    color: rgb(245, 245, 220);
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+#map {
+    padding: 23%;
+    height: 20%;
+    border-radius: 10%;
+    opacity: 0.8;
+    width: 10%;
+    margin: 1%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.caja-flex {
+    display: flex;
+    padding: 1%;
+    margin: 1%;
+}
+
+.registro {
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+}
+
+.carrusel {
+    height: 50%;
+    flex-direction: row;
+    width: 70%;
+    margin: 5%;
+}
